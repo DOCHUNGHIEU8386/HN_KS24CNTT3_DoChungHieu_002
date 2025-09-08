@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src", "src/PTIT-CNTT3-IT104-SS13-Bai4/Child.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai3/Bai3.tsx", "src/PTsrc/PTIT-CNTT3-IT104-SS13-Bai5/Parent.tsxai2/Bai2.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai1/Bai1.tsx", "components/Parent.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai5/Children.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai6/DetailPost.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai6/ListPost.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai8/Bai8.tsx", "src/PTIT-CNTT3-IT104-SS13-Bai7/Bai7.tsx"]
+}
